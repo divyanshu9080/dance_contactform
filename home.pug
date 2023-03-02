@@ -1,0 +1,47 @@
+extends base.pug 
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+
+block content 
+    
+    section#introSection
+        div Welcome to DC's Dance Academy 
+        div Eat Sleep Dance Repeat 
+    section#missionSection
+        h4 Our Mission
+        .card 
+            h2 Dance Perfection 
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/l4.png")
+                div.card-content 
+                    p The Studio's instructors are devoted to sharing with students their joy of dance while having fun growing self-esteem & finding a positive, inspiring role model.
+        .card
+            h2 Dance the way you like 
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/l2.png")
+                div.card-content 
+                    p Dance is a form of expression that brings people together, allows them to be creative in new ways, and is a fantastic way to escape the stresses and cares of everyday life. 
+
+                    
+        .card
+            h2  Expert teaching
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/logo1.png")
+                div.card-content 
+                    p You can find dance classes by the professionals for western dance that focus on various dance forms such as ballroom, hip-hop, flamenco, salsa, ballet, line dancing and many more.
+            
+    section#sponsersSection
+        
+        div#text Our Sponsers
+        div#sponsers
+            img(src="/static/img/a.png", alt="Sponser Image", class="spImage")
+            img(src="/static/img/b.png", alt="Sponser Image", class="spImage")
+            img(src="/static/img/c.png", alt="Sponser Image", class="spImage")
+            img(src="/static/img/d.png", alt="Sponser Image", class="spImage")
