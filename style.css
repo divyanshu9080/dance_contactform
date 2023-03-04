@@ -98,6 +98,7 @@
     width: 66.4%;
     margin: auto;
 }
+
 #missionSection h4{
     /* background-color:  #a5000028; */
     height: 60px;
@@ -150,6 +151,98 @@ font-weight: bold;
         margin: 17px;
        
     }
+    @media (max-width: 1518px) {
+        .card {
+          margin: 0px 40px;
+        }
+      }
+    @media (max-width: 1444px) {
+        .card {
+          margin: 0px 39px;
+        }
+      }
+    @media (max-width: 1411px) {
+        .card {
+          margin: 0px 38px;
+        }
+      }
+    @media (max-width: 1375px) {
+        .card {
+          margin: 0px 37px;
+        }
+      }
+    @media (max-width: 845px) {
+        .card {
+          margin: 0px 25px;
+        }
+      }
+    @media (max-width: 1338px) {
+        .card {
+          margin: 0px 36px;
+        }
+      }
+    @media (max-width: 1303px) {
+        .card {
+          margin: 0px 18px;
+          width: 29%;
+        }
+      }
+    
+   
+    @media (max-width: 1265px) {
+        .card {
+            margin: 0px 30px;
+            width: 26%;
+        }
+      }
+      
+    @media (max-width: 1234px) {
+        .card {
+            margin: 0px 29px;
+            width: 26%;
+        }
+      }
+      @media (max-width: 1231px) {
+        .card {
+            margin: 0px 29px;
+            width: 26%;
+        }}
+      @media (max-width: 1192px) {
+        .card {
+            margin: 0px 25px;
+            width: 27%;
+        }}
+        
+      @media (max-width: 1189px) {
+        .card {
+            margin: 0px 18px;
+            width: 28%;
+        }
+      }
+      @media (max-width: 1159px) {
+        .card {
+            margin: 0px 16px;
+            width: 29%;
+        }
+      }
+      @media (max-width: 1123px) {
+        .card {
+            margin: 0px 12px;
+            width: 30%;
+        }
+      }
+      @media (max-width: 1084px) {
+        .card {
+            margin: 0px 8px;
+            width: 31%;
+        }
+      }
+      @media (max-width: 1032px) {
+        .card {
+            margin: 0px 4px;
+            width: 32%;
+        }
+      }
     #text{
         
         
@@ -185,7 +278,4 @@ font-weight: bold;
     text-align: center;
     padding-top: 15px;
     font-family: 'Lacquer', cursive;
-    font-family: 'Chelsea Market', cursive;
-
-    
-}
+    font-family: 'Chelsea Market', cursive;}
