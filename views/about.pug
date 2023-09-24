@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+    include ../static/style.css
+    include ../static/styleAbout.css
+
+block content
+  section#meet-the-team
+    .container
+      h1 About Us
+      p Welcome to our dance community! We are passionate about sharing the joy of dance with people of all ages and backgrounds. Our team of experienced instructors are dedicated to providing high-quality dance education in a fun and supportive environment.
+
+      p Whether you're a beginner or an experienced dancer, we offer a variety of classes to suit your needs. From ballet and hip hop to salsa and ballroom, our classes are designed to help you improve your skills and discover your love for dance.
+
+      p Our studio is equipped with state-of-the-art sound systems and dance floors, providing the perfect setting for your dance journey. We also host regular dance events and performances, giving our students the opportunity to showcase their talents and connect with other dancers.
+
+      // Add some space between sections
+      hr
+      br
+
+      // Meet the Team
+      h2 Meet the Team
+      p Get to know the experienced and passionate instructors and staff who make our studio a welcoming and inspiring place to learn and grow as a dancer.
+
+      // Team Member Cards
+      .team-member
+        img(src='static/img/instructor1.png')
+        h3 Prabhu Deva
+        p Lead Instructor
+      .team-member
+        img(src='static/img/instructor.png')
+        h3 Farah Khan
+        p Assistant Instructor
+      
+  button#scroll-btn1 ▼
+  

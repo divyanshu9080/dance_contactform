@@ -2,9 +2,9 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
+const bodyParser=require('body-parser')
 var mongoose = require('mongoose');
 const bodyparser = require("body-parser");
-mongoose.connect('mongodb://0.0.0.0:27017/contactDance', { useNewUrlParser: true });
 const port = 80;
 var contactSchema = new mongoose.Schema({
     name: String,
@@ -17,7 +17,7 @@ var Contact = mongoose.model('Contact', contactSchema);
 
 
 
-const mongoose = require('mongoose');
+
 
 // Connect to MongoDB database
 mongoose.connect("mongodb+srv://divyanshu:divyanshu@cluster0.hgbkj8j.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true}")
@@ -90,10 +90,10 @@ app.post('/contact', (req, res) => {
     myData.save().then(() => {
         res.send("This item has been saved to the database")
     }).catch(() => {
-        res.status(400).send("Item was not saved to the database")
+        res.status(400).send("Item saved to the database")
     })
     //res.status(200).render('contact.pug');
 })
-app.listen(port, () => {
-    console.log(`The application started successfully on ${port}`);
+app.listen(4500, () => {
+    console.log(`The application started successfully on ${4500}`);
 });

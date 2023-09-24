@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title DC's Dance Academy
+    block scripts
+    script(src='/static/index.js')
+    block style
+  body
+    nav#navbar 
+        ul  
+            div#logo 
+                img(src="static/img/logo-1234.png")
+                | DCDA
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/contact") Contact Us]
+    button#scroll-btn ▼
+            
+    block content
+    footer#footer 
+        | Copyright © 2019 DC'sDanceAcademy.com | All rights reserved
