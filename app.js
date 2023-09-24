@@ -20,7 +20,7 @@ var Contact = mongoose.model('Contact', contactSchema);
 const mongoose = require('mongoose');
 
 // Connect to MongoDB database
-mongoose.connect('mongodb://0.0.0.0:27017/contactDancee', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://divyanshu:divyanshu@cluster0.hgbkj8j.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true}")
   .then(() => console.log('Connected to MongoDB database'))
   .catch(error => console.log(error));
 
