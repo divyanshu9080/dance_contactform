@@ -13,7 +13,7 @@
 
 #navbar {
   background-color: #d72b06;
-  padding: 13px 14px;
+  padding: 0.813rem 0.875rem;
   font-family: 'Lacquer', cursive;
 }
 
@@ -35,27 +35,27 @@
   display: flex;
   color: white;
   align-items: center;
-  margin: 0 14px;
-  font-size: 21.5px;
-  margin-right: 40px;
+  margin: 0 0.875rem;
+  font-size: 1.344rem;
+  margin-right: 2.5rem;
 }
 
 #logo img {
-  height: 30px;
+  height: 1.875rem;
   filter: invert(100%);
-  margin-right: 10px;
+  margin-right: 0.625rem;
   margin-top: 0;
 }
 
 #navbar li a {
   text-decoration: none;
-  padding: 13px 20px;
+  padding: 0.813rem 1.25rem;
   color: white;
-  font-size: 20.6px;
+  font-size: 1.288rem;
 }
 
 #introSection {
-  height: 1550px;
+  height: 96.875rem;
   max-height: 100vh;
   background-color: red;
   color: white;
@@ -72,28 +72,28 @@
   max-width: 64.4%;
   margin: auto;
   display: flex;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 #missionSection h4 {
-  height: 60px;
+  height: 14.563rem;
   display: flex;
   justify-content: center;
   margin: auto;
   color: black;
   font-family: 'Chelsea Market', 'Josefin Sans', 'Lacquer', cursive;
   font-weight: bold;
-  font-size: 28px;
-  margin-bottom: 30.6px;
-  padding: 9px;
+  font-size: 1.75rem;
+  margin-bottom: 1.913rem;
+  padding: 0.563rem;
 }
 
 .card {
-  border: 2px solid black;
+  border: 0.125rem solid black;
   width: 30%;
-  height: 35%;
+  height: 45%;
   font-size: 0.7rem;
-  border-radius: 15px;
+  border-radius: 0.938rem;
   padding: 0.6rem;
   display: flex;
   justify-content: center;
@@ -104,8 +104,8 @@
 }
 
 #sponsers {
-  max-height: 100px;
-  margin: 20px auto;
+  max-height: 6.25rem;
+  margin: 1.25rem auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -113,8 +113,8 @@
 }
 
 .spImage {
-  max-height: 50px;
-  margin: 7px;
+  max-height: 3.125rem;
+  margin: 0.438rem;
 }
 
 @media (max-width: 1518px) {
@@ -166,19 +166,19 @@
 
 #sponsersSection {
   background-color: #a5000028;
-  padding: 20px 0;
+  padding: 1.25rem 0;
   color: black;
   font-family: 'Chelsea Market', cursive;
   text-align: center;
   font-size: 1.5rem;
-  max-height: 150px;
+  max-height: 9.375rem;
 }
 
 #footer {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 15px 0;
+  padding: 0.938rem 0;
   font-family: 'Lacquer', cursive;
   font-family: 'Chelsea Market', cursive;
 }
