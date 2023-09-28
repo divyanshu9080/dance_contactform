@@ -91,14 +91,14 @@
 .card {
   border: 2px solid black;
   width: 25%;
-  height: 300px;
+  height: 35%;
   font-size: 0.7rem;
   border-radius: 15px;
-  padding: 6px;
+  padding: 0.6rem;
   display: flex;
   justify-content: center;
   position: relative;
-  margin: 0 auto 20px;
+  margin: 0 auto 1.25rem;
   background-color: rgb(252, 249, 246);
 
 }
@@ -182,4 +182,6 @@
   font-family: 'Lacquer', cursive;
   font-family: 'Chelsea Market', cursive;
 }
-
+#scroll-btn{
+  display: none;
+}
