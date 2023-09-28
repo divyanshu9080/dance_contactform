@@ -96,9 +96,11 @@
   border-radius: 15px;
   padding: 6px;
   display: flex;
+  justify-content: center;
   position: relative;
   margin: 0 auto 20px;
   background-color: rgb(252, 249, 246);
+
 }
 
 #sponsers {
