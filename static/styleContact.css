@@ -1,15 +1,15 @@
 h1{
     text-align: center;
-    margin: 12px 0px;
+    margin: 0.75rem 0rem;
     font-family: 'Lacquer', cursive;
 }
 .myInput{
     width: 40%;
-    padding: 9px;
-    margin: 8px;
-    font-size: 16px;
-    border: 2px solid black;
-    border-radius: 12px;
+    padding: 0.563rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border: 0.125rem solid black;
+    border-radius: 0.75rem;
     outline: none;
     font-weight: bold;
     
@@ -23,14 +23,14 @@ h1{
     width: 100%;
 }
 .btn{
-    padding: 8px 16px;
-    font-size: 18px;
-    border: 2px solid black;
-    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 1.125rem;
+    border: 0.125rem solid black;
+    border-radius: 0.625rem;
     background-color: red;
     color: white;
     cursor: pointer;
-    margin: 18px;
+    margin: 1.125rem;
 }
 .container{
     min-height: 85.6vh;
