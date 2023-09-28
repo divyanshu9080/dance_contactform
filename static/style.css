@@ -92,9 +92,9 @@
   border: 2px solid black;
   width: 25%;
   height: 300px;
-  font-size: 12px;
+  font-size: 0.7rem;
   border-radius: 15px;
-  padding: 8px;
+  padding: 6px;
   display: flex;
   position: relative;
   margin: 0 auto 20px;
