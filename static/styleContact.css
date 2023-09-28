@@ -1,10 +1,11 @@
 h1{
     text-align: center;
     margin: 0.75rem 0rem;
+    font-size: 4rem;
     font-family: 'Lacquer', cursive;
 }
 .myInput{
-    width: 40%;
+    width: 80%;
     padding: 0.563rem;
     margin: 0.5rem;
     font-size: 1rem;
@@ -21,6 +22,7 @@ h1{
     align-items: center;
     outline: none;
     width: 100%;
+    margin: 1rem 10rem 3rem 10rem;
 }
 .btn{
     padding: 0.5rem 1rem;
